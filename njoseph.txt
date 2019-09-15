@@ -1,3 +1,25 @@
 username=njoseph98
 url= https://github.com/njoseph98/cisc275-fall2019-first-git
 
+I created and saved all of the files vim 
+ untracked: I did not do anything after creating the file  
+ modified: 
+ git add file2.txt 
+ git commit -m "This is file2" 
+ vim file2.txt (then I edited it)  
+ 
+ staged: 
+ git add file3.txt  
+ 
+ repo: git add file4.txt 
+ git commit -m "This is file3"   
+ Working with GitHub %%%%%%%%%%%%%%%%%%%%%%  - Create a Github account  (at www.github.com (Links to an external site.)), write down your username below.  - njoseph98  Clone this repository to your local machine: https://github.com/nmerrill67/cisc275-fall2019-first-git (DO NOT FORK IT)  Create an empty repository under your GitHub account and name it "cisc275-fall2019-first-git". Paste the URL of your repository here:   https://github.com/njoseph98/cisc275-fall2019-first-git
+
+What five objects are created in the main? 
+There are three dog Object, a List object, and the comparator Object that are called in the main
+
+Can you spot the Comparator constructor call? Where is the class definition for the Comparator? 
+Yes, it is the line: Collections.sort(dogs, new Comparator() { The class definition is found in the following code: @Override
+public int compare(Animal a,Animal b){ return a.getLegs() - b.getLegs();
+}
+});
